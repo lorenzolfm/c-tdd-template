@@ -1,8 +1,6 @@
-**/build
-*.txt
-*.*~
-.*~
-*.d
-*.o
-*.a
-*a.out
+*
+!makefile
+!MakeTest.mk
+!*.c
+!/include
+!/src
